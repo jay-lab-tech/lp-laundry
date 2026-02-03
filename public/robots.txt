@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /.env
+Disallow: /.env.local
+
+Sitemap: https://laundry-bersih-jaya.vercel.app/sitemap.xml
+
+# Priority crawling
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
